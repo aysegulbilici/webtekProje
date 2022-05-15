@@ -37,7 +37,10 @@
       background-color: #111;
     }
     
-   
+    .mail-form{
+        min-width: 600px;
+        min-height: 600px;
+    }
 
     a:link, a:visited {
   color: rgb(255, 255, 255);
@@ -71,6 +74,43 @@
           </div>
         </nav>
       </div>
+
+      <div class="container">
+  
+      <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+               <form  class= "mx-auto w-25   mail-form" action="login.php" method="post">
+        
+            
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Kullanıcı Adı</span>
+              <input type="email" class="form-control" placeholder="b211210100@sakarya.edu.tr"  aria-describedby="basic-addon1" autofocus>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Şifre</span>
+                <input type="password" class="form-control" placeholder=""  aria-describedby="basic-addon1">
+              </div>
+
+
+  
+            
+        
+           
+            
+           
+        
+          
+          <input class="btn btn-danger" type="submit" value="Gönder">
+          <input class="btn btn-danger" type="reset" value="Temizle">
+  
+  
+  
+          </form>
+  
+        
+   
+      </div>
+  
     
     </body>
 </html>
