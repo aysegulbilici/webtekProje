@@ -12,23 +12,62 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+   
+
+    a:link, a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: auto;
+}
+
+
+    </style>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark"> 
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Hakkında</a>
-            
-            <a class="navbar-brand" href="#">Özgeçmiş</a>
+     <ul class="nav justify-content-center">
+         <li class="nav-item">  <a class="navbar-link "  href="giriş.html">Hakkında</a></li> 
+          <li class="nav-item">  <a class="navbar-link" href="özgeçmiş.html">Özgeçmiş</a></li>
            
-            <a class="navbar-brand" href="#">Şehrim</a>
+        <li class="nav-item">  <a class="navbar-link" href="şehrim.html">Şehrim</a></li>
          
-            <a class="navbar-brand" href="#">Mirasımız</a>
+         <li class="nav-item">  <a class="navbar-link" href="mirasımız.html">Mirasımız</a></li>
           
-            <a class="navbar-brand" href="#">İlgi Alanlarım</a>
+         <li class="nav-item"> <a class="navbar-link" href="ilgialanlarım.html">İlgi Alanlarım</a></li> 
+         <li class="nav-item"> <a class="navbar-link" href="iletisim.html">İletişim</a></li> 
            
-            <a class="navbar-brand" href="#">Login</a>
-            
-            <a class="navbar-brand" href="#">İletişim</a>
+         
+       
+        
+        </ul>
+           <a href="login.html" > <button class="btn btn-danger navbar-btn">Giriş Yap</button></a>
           </div>
         </nav>
       </div>
